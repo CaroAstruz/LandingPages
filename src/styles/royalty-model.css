@@ -1,0 +1,111 @@
+.royalty-model {
+  background: var(--offwhite);
+}
+
+.royalty-model .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.royalty-text h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.royalty-text p {
+  margin-bottom: var(--space-sm);
+}
+
+.royalty-text p:last-child {
+  margin-bottom: 0;
+}
+
+.royalty-visual {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+/* Revenue bar */
+.revenue-bar {
+  display: flex;
+  height: 64px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.revenue-segment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 18px;
+  transition: width 1.2s cubic-bezier(0.22, 1, 0.36, 1);
+  width: 0;
+}
+
+.revenue-segment.visible {
+  /* widths set inline */
+}
+
+.revenue-segment.seller {
+  background: #FFFCF9;
+  color: #23242C;
+  width: 0;
+}
+
+.revenue-segment.seller.visible {
+  width: 75%;
+}
+
+.revenue-segment.creator {
+  background: var(--orange);
+  color: #FFFCF9;
+  width: 0;
+}
+
+.revenue-segment.creator.visible {
+  width: 15%;
+}
+
+.revenue-segment.platform {
+  background: #23242C;
+  color: #FFFCF9;
+  width: 0;
+}
+
+.revenue-segment.platform.visible {
+  width: 10%;
+}
+
+/* Labels below bar */
+.revenue-labels {
+  display: flex;
+}
+
+.revenue-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.revenue-label:nth-child(1) { flex: 75; }
+.revenue-label:nth-child(2) { flex: 15; }
+.revenue-label:nth-child(3) { flex: 10; }
+
+.revenue-label .percent {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--dark);
+}
+
+.revenue-label .role {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--secondary-text);
+}

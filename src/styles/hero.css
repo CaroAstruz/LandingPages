@@ -1,0 +1,138 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: var(--space-xl);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 89, 0, 0.08);
+  color: var(--orange);
+  font-family: var(--font-headline);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.hero-badge::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--orange);
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.hero-title em {
+  font-style: normal;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  line-height: 1.6;
+  max-width: 520px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+/* Right column illustration */
+.hero-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-visual-glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255, 89, 0, 0.1) 0%, transparent 70%);
+  filter: blur(40px);
+  z-index: 0;
+}
+
+.hero-illustration {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 460px;
+}
+
+/* Floating cards decoration around illustration */
+.hero-float-card {
+  position: absolute;
+  background: var(--offwhite);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 14px 20px;
+  font-family: var(--font-headline);
+  font-weight: 600;
+  font-size: 14px;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+.hero-float-card.card-royalty {
+  top: 15%;
+  right: -10%;
+  color: var(--orange);
+}
+
+.hero-float-card.card-royalty .amount {
+  font-size: 22px;
+  display: block;
+}
+
+.hero-float-card.card-sold {
+  bottom: 20%;
+  left: -5%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-float-card .dot-green {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #44cc88;
+}

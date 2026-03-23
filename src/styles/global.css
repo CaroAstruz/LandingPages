@@ -1,0 +1,110 @@
+/* Typography classes — match WNG-App global.css */
+
+h1, h2, h3 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--dark);
+}
+
+h1 { font-size: 64px; }
+h2 { font-size: 40px; }
+h3 { font-size: 24px; }
+
+p {
+  font-family: var(--font-body);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  color: var(--secondary-text);
+}
+
+.section {
+  padding: var(--space-xl) var(--space-md);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-label {
+  font-family: var(--font-headline);
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: var(--space-sm);
+}
+
+.section-title {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: var(--space-sm);
+}
+
+.section-subtitle {
+  font-family: var(--font-body);
+  font-size: 18px;
+  color: var(--secondary-text);
+  max-width: 600px;
+}
+
+/* Button patterns — exact match button.module.css */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 56px;
+  padding: 0 28px;
+  border-radius: var(--radius-md);
+  font-family: var(--font-headline);
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--orange);
+  color: #FFFCF9;
+  border: 2px solid var(--orange);
+}
+
+.btn-primary:hover {
+  background: var(--dark-orange);
+  border-color: var(--dark-orange);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+}
+
+.btn-outline:hover {
+  background: var(--orange);
+  color: #FFFCF9;
+}
+
+.btn-white {
+  background: #FFFCF9;
+  color: var(--orange);
+  border: 2px solid #FFFCF9;
+}
+
+.btn-white:hover {
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.btn-sm {
+  height: 44px;
+  padding: 0 20px;
+  font-size: 16px;
+}

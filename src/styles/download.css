@@ -1,0 +1,136 @@
+/* ── Download Section ──────────────────────────────────── */
+
+.download-section {
+  background: var(--dark-fixed);
+  color: var(--offwhite);
+  text-align: center;
+  padding: var(--space-xl) 0;
+}
+
+.download-section .section-label {
+  color: var(--orange);
+}
+
+.download-section h2 {
+  color: #fff;
+}
+
+.download-section .section-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 540px;
+  margin: 0 auto var(--space-lg);
+}
+
+/* Download cards — one per platform */
+.download-cards {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-lg);
+}
+
+.download-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  min-width: 220px;
+  max-width: 280px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.download-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--orange);
+}
+
+.download-card.primary {
+  border-color: var(--orange);
+  background: rgba(255, 89, 0, 0.08);
+}
+
+.download-card .platform-icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-xs);
+  display: block;
+}
+
+.download-card .platform-name {
+  font-family: var(--font-headline);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: var(--space-xs);
+}
+
+.download-card .platform-meta {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: var(--space-sm);
+}
+
+.download-card .btn {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+}
+
+/* Loading & error states */
+.download-loading {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.9rem;
+}
+
+.download-error {
+  color: #ff4444;
+  font-size: 0.9rem;
+}
+
+/* Requirements row */
+.download-requirements {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.req-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.req-item strong {
+  color: var(--orange);
+  font-size: 0.9rem;
+}
+
+.req-item span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.8rem;
+}
+
+/* ── Responsive ───────────────────────────────────────── */
+
+@media (max-width: 767px) {
+  .download-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .download-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .download-requirements {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+}

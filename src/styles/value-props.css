@@ -1,0 +1,73 @@
+.value-props {
+  background: var(--offwhite);
+}
+
+.value-props .container {
+  text-align: center;
+}
+
+.value-props .section-subtitle {
+  margin: 0 auto var(--space-lg);
+}
+
+.value-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.value-card {
+  background: var(--offwhite);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.value-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.value-card:hover {
+  transform: scale(1.03);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.value-card-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 89, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-sm);
+}
+
+.value-card-icon svg {
+  width: 28px;
+  height: 28px;
+  color: var(--orange);
+}
+
+.value-card h3 {
+  font-family: var(--font-headline);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.value-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
