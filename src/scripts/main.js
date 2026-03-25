@@ -116,6 +116,7 @@ document.querySelectorAll('.lang-link').forEach(link => {
     e.preventDefault();
     const lang = link.dataset.lang;
     const hash = window.location.hash;
-    window.location.href = '/' + lang + hash;
+    const base = import.meta.env.BASE_URL;
+    window.location.href = base + lang + hash;
   });
 });

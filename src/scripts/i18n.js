@@ -231,12 +231,16 @@ const translations = {
 const SUPPORTED_LANGS = ['fr', 'en'];
 const DEFAULT_LANG = 'fr';
 
+const BASE = import.meta.env.BASE_URL; // e.g. '/LandingPages/' or '/'
+
 /**
- * Detect language from URL path. /en → 'en', /fr → 'fr', else default.
+ * Detect language from URL path, accounting for base path.
  */
 export function detectLang() {
   const path = window.location.pathname;
-  const match = path.match(/^\/(fr|en)(\/|$)/);
+  const basePath = BASE.endsWith('/') ? BASE : BASE + '/';
+  const relative = path.startsWith(basePath) ? path.slice(basePath.length) : path;
+  const match = relative.match(/^(fr|en)(\/|$)/);
   return match ? match[1] : null;
 }
 
@@ -287,9 +291,9 @@ export function initLang() {
   let lang = detectLang();
 
   if (!lang) {
-    // No lang prefix found → redirect to /fr
+    // No lang prefix found → redirect to base/fr
     const hash = window.location.hash;
-    window.location.replace('/' + DEFAULT_LANG + hash);
+    window.location.replace(BASE + DEFAULT_LANG + hash);
     return DEFAULT_LANG;
   }
 
