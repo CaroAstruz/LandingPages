@@ -79,10 +79,8 @@ const translations = {
     "download.label": "Telecharger",
     "download.title": "Installez le launcher WNG",
     "download.subtitle": "Disponible sur Windows, macOS et Linux. Un seul compte, toutes vos plateformes.",
-    "download.loading": "Chargement des liens...",
-    "download.reqWin": "Windows 10+, 64-bit",
-    "download.reqMac": "macOS 11+, Apple Silicon / Intel",
-    "download.reqLinux": "Ubuntu 22.04+, WebKitGTK 4.1",
+    "download.wip": "Le launcher WNG est actuellement en cours de developpement.",
+    "download.wipSub": "Restez connectes, il arrive bientot !",
 
     // CTA
     "cta.title": "Pret a changer la donne ?",
@@ -193,10 +191,8 @@ const translations = {
     "download.label": "Download",
     "download.title": "Install the WNG Launcher",
     "download.subtitle": "Available on Windows, macOS, and Linux. One account, all your platforms.",
-    "download.loading": "Loading download links...",
-    "download.reqWin": "Windows 10+, 64-bit",
-    "download.reqMac": "macOS 11+, Apple Silicon / Intel",
-    "download.reqLinux": "Ubuntu 22.04+, WebKitGTK 4.1",
+    "download.wip": "The WNG launcher is currently under development.",
+    "download.wipSub": "Stay tuned, it's coming soon!",
 
     // CTA
     "cta.title": "Ready to change the game?",
