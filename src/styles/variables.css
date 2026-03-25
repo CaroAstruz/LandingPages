@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600;700&family=DM+Sans:wght@400;500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fulbo');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 :root {
   /* Brand colors — exact match WNG-App global.css */
@@ -7,7 +9,7 @@
   --offwhite: #FFFCF9;
   --dark: #23242C;
   --gradient: linear-gradient(180deg, #FF5900 25.26%, #CC3300 100%);
-  --secondary-text: rgba(0, 0, 0, 0.5);
+  --secondary-text: #23242C;
 
   /* Tier colors */
   --diamond: #41cfef;
@@ -20,8 +22,9 @@
   --dark-fixed: #23242C;
 
   /* Typography */
-  --font-headline: 'Bai Jamjuree', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
+  --font-display: "Fulbo", sans-serif;
+  --font-headline: "Plus Jakarta Sans", sans-serif;
+  --font-body: 'Nunito Sans', sans-serif;
 
   /* Spacing */
   --space-xs: 8px;
@@ -31,10 +34,10 @@
   --space-xl: 96px;
 
   /* Radii — from WNG-App patterns */
-  --radius-sm: 6px;
-  --radius-md: 10px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
   --radius-lg: 16px;
-  --radius-xl: 30px;
+  --radius-xl: 32px;
 
   /* Shadows — from card.module.css */
   --shadow-card: 0 13px 27px -5px rgba(0,0,0,0.25), 0 8px 16px -8px rgba(0,0,0,0.25);
@@ -46,6 +49,6 @@
   :root {
     --offwhite: #23242C;
     --dark: #FFFCF9;
-    --secondary-text: rgba(255, 252, 249, 0.5);
+    --secondary-text: #AAACBB;
   }
 }

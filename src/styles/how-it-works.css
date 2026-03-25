@@ -76,12 +76,13 @@
 
 .step h3 {
   color: #FFFCF9;
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 4px;
+  font-weight: 500;
 }
 
 .step p {
-  color: rgba(255, 252, 249, 0.6);
+  /*color: rgba(255, 252, 249, 0.6);*/
   font-size: 16px;
   max-width: 280px;
 }

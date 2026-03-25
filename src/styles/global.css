@@ -1,15 +1,19 @@
 /* Typography classes — match WNG-App global.css */
 
-h1, h2, h3 {
+h1 {
+  font-family: var(--font-display);
+} 
+
+h2, h3 {
   font-family: var(--font-headline);
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.15;
   color: var(--dark);
 }
 
-h1 { font-size: 64px; }
-h2 { font-size: 40px; }
-h3 { font-size: 24px; }
+h1 { font-size: 61px; }
+h2 { font-size: 39px; }
+h3 { font-size: 25px; }
 
 p {
   font-family: var(--font-body);
