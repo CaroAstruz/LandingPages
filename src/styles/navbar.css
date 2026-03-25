@@ -9,17 +9,11 @@
 }
 
 .navbar.scrolled {
-  background: rgba(255, 252, 249, 0.92);
+  opacity: 0.95;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 1px 20px rgba(0,0,0,0.06);
   padding: 14px var(--space-md);
-}
-
-@media (prefers-color-scheme: dark) {
-  .navbar.scrolled {
-    background: rgba(35, 36, 44, 0.92);
-  }
 }
 
 .navbar .container {

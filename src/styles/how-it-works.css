@@ -1,19 +1,19 @@
-.how-it-works {
+/* .how-it-works {
   background: #23242C;
   color: #FFFCF9;
-}
+} */
 
 .how-it-works .section-label {
   color: var(--orange);
 }
 
-.how-it-works .section-title {
+/* .how-it-works .section-title {
   color: #FFFCF9;
-}
+} */
 
-.how-it-works .section-subtitle {
+/* .how-it-works .section-subtitle {
   color: rgba(255, 252, 249, 0.5);
-}
+} */
 
 .how-it-works .container {
   text-align: center;

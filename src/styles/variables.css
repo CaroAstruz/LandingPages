@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/fulbo');
+@import url("https://db.onlinewebfonts.com/c/88bee91dd16e3fd5db312fab83fc446b?family=Fulbo+Argenta");
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
@@ -7,9 +7,10 @@
   --orange: #FF5900;
   --dark-orange: #CE4800;
   --offwhite: #FFFCF9;
-  --dark: #23242C;
+  --dark: #1B1C22;
   --gradient: linear-gradient(180deg, #FF5900 25.26%, #CC3300 100%);
   --secondary-text: #23242C;
+  --tertiary-text: #AAACBB;
 
   /* Tier colors */
   --diamond: #41cfef;
@@ -19,10 +20,10 @@
 
   /* Surfaces */
   --dark-surface: #1e1e2e;
-  --dark-fixed: #23242C;
+  --dark-fixed: #1B1C22;
 
   /* Typography */
-  --font-display: "Fulbo", sans-serif;
+  --font-display: "Fulbo Argenta";
   --font-headline: "Plus Jakarta Sans", sans-serif;
   --font-body: 'Nunito Sans', sans-serif;
 
@@ -47,8 +48,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --offwhite: #23242C;
+    --offwhite: #1B1C22;
     --dark: #FFFCF9;
-    --secondary-text: #AAACBB;
+    --secondary-text: #71748E;
+    --tertiary-text: #444655;
   }
 }

@@ -1,6 +1,6 @@
 .footer {
-  background: #1a1b22;
-  color: rgba(255, 252, 249, 0.5);
+  /* background: #1a1b22;
+  color: rgba(255, 252, 249, 0.5); */
   padding: var(--space-lg) var(--space-md) var(--space-md);
 }
 
@@ -31,7 +31,7 @@
   font-family: var(--font-headline);
   font-weight: 700;
   font-size: 20px;
-  color: #FFFCF9;
+  color: var(--dark);
 }
 
 .footer-brand p {
@@ -44,7 +44,7 @@
   font-family: var(--font-headline);
   font-weight: 600;
   font-size: 16px;
-  color: #FFFCF9;
+  color: var(--dark);
   margin-bottom: var(--space-sm);
 }
 
@@ -66,5 +66,5 @@
   border-top: 1px solid rgba(255, 252, 249, 0.08);
   text-align: center;
   font-size: 14px;
-  color: rgba(255, 252, 249, 0.3);
+  color: var(--secondary-text);
 }

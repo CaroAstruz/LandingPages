@@ -1,8 +1,8 @@
 /* ── Download Section ──────────────────────────────────── */
 
 .download-section {
-  background: var(--dark-fixed);
-  color: var(--offwhite);
+  /* background: var(--dark-fixed);
+  color: var(--offwhite); */
   text-align: center;
   padding: var(--space-xl) 0;
 }
@@ -11,12 +11,12 @@
   color: var(--orange);
 }
 
-.download-section h2 {
+/* .download-section h2 {
   color: #fff;
-}
+} */
 
 .download-section .section-subtitle {
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
   max-width: 540px;
   margin: 0 auto var(--space-lg);
 }
@@ -79,8 +79,8 @@
 
 /* Work-in-progress notice */
 .download-wip {
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(161, 161, 161, 0.2);
+  border: 1px solid rgba(161, 161, 161, 0.5);
   border-radius: var(--radius-md);
   padding: var(--space-md) var(--space-lg);
   max-width: 520px;
@@ -98,13 +98,13 @@
   font-family: var(--font-headline);
   font-size: 1.1rem;
   font-weight: 600;
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: var(--space-xs);
 }
 
 .download-wip-sub {
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--secondary-text);
 }
 
 /* ── Responsive ───────────────────────────────────────── */

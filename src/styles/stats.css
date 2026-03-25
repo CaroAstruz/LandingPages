@@ -1,7 +1,7 @@
-.stats {
+/* .stats {
   background: #23242C;
   color: #FFFCF9;
-}
+} */
 
 .stats-grid {
   display: grid;
@@ -18,7 +18,7 @@
 }
 
 .stat-number {
-  font-family: var(--font-headline);
+  font-family: var(--font-display);
   font-weight: 700;
   font-size: 48px;
   color: var(--orange);
@@ -28,5 +28,5 @@
 .stat-label {
   font-family: var(--font-body);
   font-size: 16px;
-  color: rgba(255, 252, 249, 0.5);
+  /* color: rgba(255, 252, 249, 0.5); */
 }
