@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/wng-landing/',
+  base: '/LandingPages/',
   root: '.',
   build: {
     outDir: 'dist',
