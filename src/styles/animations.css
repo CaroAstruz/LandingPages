@@ -1,3 +1,4 @@
+@media (prefers-reduced-motion: no-preference) {
 /* ============================
    Scroll-triggered animations
    ============================ */
@@ -114,6 +115,7 @@
 
 .stat-number.counted {
   animation: count-pulse 0.3s ease;
+}
 }
 
 /* ============================
