@@ -25,10 +25,10 @@ const translations = {
     "value.subtitle": "Pour les gamers, les createurs, et toute l'industrie du jeu video.",
     "value.card1Title": "Possédez vraiment vos jeux",
     "value.card1Text": "Achetez. Jouez. Revendez quand vous voulez. Comme un jeu physique, mais en numérique.",
-    "value.card2Title": "Gagnez a chaque revente",
+    "value.card2Title": "Gagnez à chaque revente",
     "value.card2Text": "15% de royalties sur chaque vente secondaire. Automatiquement. Pour toujours. Votre travail continue de vous payer.",
     "value.card3Title": "Propriété numérique équitable",
-    "value.card3Text": "Partage de revenus transparent. Paiements securisés par Stripe. Un nouveau standard pour le numérique.",
+    "value.card3Text": "Partage de revenus transparent. Paiements sécurisés par Stripe. Un nouveau standard pour le numérique.",
 
     // How it works
     "how.label": "Comment ça marche",
@@ -62,10 +62,10 @@ const translations = {
     "tiers.goldText": "Première revente. Tier de haute valeur.",
     "tiers.silverLabel": "Argent",
     "tiers.silverTitle": "3e propriétaire",
-    "tiers.silverText": "Deuxième revente. Toujours une licence complete.",
+    "tiers.silverText": "Deuxième revente. Toujours une licence complète.",
     "tiers.bronzeLabel": "Bronze",
     "tiers.bronzeTitle": "4e+ propriétaire",
-    "tiers.bronzeText": "Le jeu reste pleinement jouable a chaque génération.",
+    "tiers.bronzeText": "Le jeu reste pleinement jouable à chaque génération.",
 
     // Stats
     "stats.label1": "Gamers sur la waitlist",
