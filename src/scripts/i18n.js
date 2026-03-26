@@ -32,7 +32,7 @@ const translations = {
 
     // How it works
     "how.label": "Comment ça marche",
-    "how.title": "Simple. Rapide. Equitable.",
+    "how.title": "Simple. Rapide. Équitable.",
     "how.subtitle": "Trois étapes pour changer la donne.",
     "how.step1Title": "Achetez un jeu",
     "how.step1Text": "Choisissez un jeu au prix catalogue. Vous recevez une licence numérique unique dans votre bibliotheque.",
@@ -71,7 +71,7 @@ const translations = {
     "stats.label1": "Gamers sur la waitlist",
     "stats.label2": "Jeux disponibles",
     "stats.label3": "Créateurs remunérés",
-    "stats.label4": "Verses aux créateurs",
+    "stats.label4": "Versés aux créateurs",
 
     // Download
     "nav.download": "Télécharger",
