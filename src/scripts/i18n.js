@@ -37,7 +37,7 @@ const translations = {
     "how.step1Title": "Achetez un jeu",
     "how.step1Text": "Choisissez un jeu au prix catalogue. Vous recevez une licence numérique unique dans votre bibliotheque.",
     "how.step2Title": "Fini ? Revendez-le",
-    "how.step2Text": "Fixez votre prix. Votre licence est en vente instantanement sur la marketplace.",
+    "how.step2Text": "Fixez votre prix. Votre licence est en vente instantanément sur la marketplace.",
     "how.step3Title": "Tout le monde gagne",
     "how.step3Text": "L'acheteur a son jeu. Vous touchez 75%. Le createur 15%. WNG 10%.",
 
@@ -52,7 +52,7 @@ const translations = {
 
     // License tiers
     "tiers.label": "Système unique",
-    "tiers.title": "énération de licences",
+    "tiers.title": "Génération de licences",
     "tiers.subtitle": "Chaque revente crée une nouvelle génération. Le premier propriétaire obtient Diamant. La valeur se transmet.",
     "tiers.diamondLabel": "Diamant",
     "tiers.diamondTitle": "1er propriétaire",
