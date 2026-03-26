@@ -75,7 +75,7 @@
 }
 
 .step h3 {
-  color: #FFFCF9;
+  color: var(--dark);
   font-size: 25px;
   margin-bottom: 4px;
   font-weight: 500;
